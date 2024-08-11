@@ -3,4 +3,6 @@ appsettings.json
 
 # Ignore environment-specific appsettings files
 appsettings.*.json
+
+# Ignore environment-specific .vs folder
 .vs
