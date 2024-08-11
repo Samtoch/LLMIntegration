@@ -6,7 +6,7 @@ using NLog;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace ChatGPT.Services.Http
+namespace LLMIntegrations.Services.Http
 {
     public class HttpService : IHttpService
     {

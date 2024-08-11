@@ -1,15 +1,15 @@
 ﻿using ChatGPT.Models;
-using ChatGPT.Utilities;
+using LLMIntegrations.Utilities;
 using Microsoft.Extensions.Options;
 using OpenAI_API;
 using OpenAI_API.Completions;
 
-namespace ChatGPT.Services
+namespace LLMIntegrations.Services
 {
     public class OpenAIService : IOpenAIService
     {
-        private readonly ChatGPTConfigs _configs;
-        public OpenAIService(IOptionsMonitor<ChatGPTConfigs> optionsMonitor)
+        private readonly LLMConfigs _configs;
+        public OpenAIService(IOptionsMonitor<LLMConfigs> optionsMonitor)
         {
               _configs = optionsMonitor.CurrentValue;
         }

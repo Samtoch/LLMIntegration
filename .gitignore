@@ -1,0 +1,6 @@
+# Ignore the base appsettings file
+appsettings.json
+
+# Ignore environment-specific appsettings files
+appsettings.*.json
+.vs

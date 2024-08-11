@@ -1,4 +1,4 @@
-﻿namespace ChatGPT.Services.Http
+﻿namespace LLMIntegrations.Services.Http
 {
     public interface IHttpService
     {

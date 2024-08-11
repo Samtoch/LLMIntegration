@@ -1,4 +1,4 @@
-﻿namespace ChatGPT.Services
+﻿namespace LLMIntegrations.Services
 {
     public interface IOpenAIService
     {

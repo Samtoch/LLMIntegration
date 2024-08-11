@@ -1,8 +1,8 @@
 ﻿using System.Security.Principal;
 
-namespace ChatGPT.Utilities
+namespace LLMIntegrations.Utilities
 {
-    public class ChatGPTConfigs
+    public class LLMConfigs
     {
         public string Role { get; set; } = "";
         public string Model { get; set; } = "";

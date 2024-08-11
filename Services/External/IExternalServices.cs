@@ -1,12 +1,9 @@
-﻿
+﻿using LLMIntegrations.Models.OpenAI;
 
-using ChatGPT.Models.ChatGPTRequest;
-using ChatGPT.Models.ChatGPTResponse;
-
-namespace ChatGPT.Services.External
+namespace LLMIntegrations.Services.External
 {
     public interface IExternalServices
     {
-        Task<GPTResponse> GetChatMessage(string text);
+        Task<Response> GetChatMessage(string text);
     }
 }
