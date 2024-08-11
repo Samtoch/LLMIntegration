@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\c#Projects\\LLMIntegrations\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAANAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-11T22:11:04.484Z",
               "EditorCaption": ""
@@ -143,19 +143,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IOpenAIService.cs",
-              "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\IOpenAIService.cs",
-              "RelativeDocumentMoniker": "Services\\IOpenAIService.cs",
-              "ToolTip": "C:\\c#Projects\\LLMIntegrations\\Services\\IOpenAIService.cs",
-              "RelativeToolTip": "Services\\IOpenAIService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T20:58:40.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "OpenAIController.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Controllers\\OpenAIController.cs",
@@ -165,6 +152,23 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:19:11.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IOpenAIService.cs",
+              "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\IOpenAIService.cs",
+              "RelativeDocumentMoniker": "Services\\IOpenAIService.cs",
+              "ToolTip": "C:\\c#Projects\\LLMIntegrations\\Services\\IOpenAIService.cs",
+              "RelativeToolTip": "Services\\IOpenAIService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T20:58:40.593Z",
               "EditorCaption": ""
             },
             {
