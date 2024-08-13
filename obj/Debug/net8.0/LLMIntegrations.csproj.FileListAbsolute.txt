@@ -7,7 +7,6 @@ C:\c#Projects\LLMIntegrations\obj\Debug\net8.0\LLMIntegrations.MvcApplicationPar
 C:\c#Projects\LLMIntegrations\obj\Debug\net8.0\LLMIntegrations.MvcApplicationPartsAssemblyInfo.cache
 C:\c#Projects\LLMIntegrations\obj\Debug\net8.0\LLMIntegrations.sourcelink.json
 C:\c#Projects\LLMIntegrations\bin\Debug\net8.0\nlog.config
-C:\c#Projects\LLMIntegrations\bin\Debug\net8.0\appsettings.Development.json
 C:\c#Projects\LLMIntegrations\bin\Debug\net8.0\appsettings.json
 C:\c#Projects\LLMIntegrations\bin\Debug\net8.0\LLMIntegrations.exe
 C:\c#Projects\LLMIntegrations\bin\Debug\net8.0\LLMIntegrations.deps.json

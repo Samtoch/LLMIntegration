@@ -1,5 +1,4 @@
-﻿using ChatGPT.Models;
-using LLMIntegrations.Utilities;
+﻿using LLMIntegrations.Utilities;
 using Microsoft.Extensions.Options;
 using OpenAI_API;
 using OpenAI_API.Completions;

@@ -28,19 +28,19 @@ namespace LLMIntegrations.Services.External
             var response = new Response();
             try
             {
-                var msgs = new List<Message>();
-                
-                foreach (var ms in msgs)
-                {
-                    ms.Role = _config.Role;
-                    ms.Content = text;
-                    msgs.Add(ms);   
-                }
+                //var msgs = new List<Message>();
+                var msgs = new List<Message>() { new Message() { Role = _config.Role, Content = text } };
 
+                //foreach (var ms in msgs)
+                //{
+                //    ms.Role = _config.Role;
+                //    ms.Content = text;
+                //    msgs.Add(ms);   
+                //}
 
                 var request = new Request() { Model = _config.Model, Messages = msgs };
 
-                var item = _httpService.PostAsync(_config.BaseURL, _config.ChatEndPoint, request, _config.Key40).Result;
+                var item = _httpService.PostAsync(_config.BaseURL, _config.ChatEndPoint, request, _config.Key).Result;
                 response = JsonConvert.DeserializeObject<Response>(item);
             }
             catch (Exception ex)

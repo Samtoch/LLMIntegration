@@ -21,7 +21,8 @@ namespace LLMIntegrations.Services.Http
                 {
                     if (token != "")
                     {
-                        _client.DefaultRequestHeaders.Add("token", token);
+                        //_client.DefaultRequestHeaders.Add("token", token);
+                        _client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
                     }
                     _client.BaseAddress = new Uri(baseUrl);
                     var json = JsonConvert.SerializeObject(body);
