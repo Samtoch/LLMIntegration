@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\c#Projects\\LLMIntegrations\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\services\\http\\httpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:services\\http\\httpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\models\\openai\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:models\\openai\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,6 +61,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|c:\\c#projects\\llmintegrations\\models\\openai\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11891E68-AB4C-4211-96AE-5C96BD5B4F4B}|LLMIntegrations.csproj|solutionrelative:models\\openai\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\c#Projects\\LLMIntegrations\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -90,8 +90,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-11T22:11:04.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T22:11:04.484Z"
             },
             {
               "$type": "Document",
@@ -103,12 +102,11 @@
               "RelativeToolTip": "Services\\OpenAIService.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAEwBoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:17:11.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T21:17:11.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAowCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:15:35.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T21:15:35.218Z"
             },
             {
               "$type": "Document",
@@ -129,25 +126,24 @@
               "RelativeToolTip": "Models\\OpenAI\\Request.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T20:55:09.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T20:55:09.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "OpenAIController.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Controllers\\OpenAIController.cs",
               "RelativeDocumentMoniker": "Controllers\\OpenAIController.cs",
               "ToolTip": "C:\\c#Projects\\LLMIntegrations\\Controllers\\OpenAIController.cs",
               "RelativeToolTip": "Controllers\\OpenAIController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCAAAAA0AAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:19:11.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ExternalServices.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\External\\ExternalServices.cs",
               "RelativeDocumentMoniker": "Services\\External\\ExternalServices.cs",
@@ -155,12 +151,11 @@
               "RelativeToolTip": "Services\\External\\ExternalServices.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAtwCoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T20:53:23.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T20:53:23.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "IHttpService.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\Http\\IHttpService.cs",
               "RelativeDocumentMoniker": "Services\\Http\\IHttpService.cs",
@@ -172,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -184,20 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HttpService.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\Http\\HttpService.cs",
               "RelativeDocumentMoniker": "Services\\Http\\HttpService.cs",
-              "ToolTip": "C:\\c#Projects\\LLMIntegrations\\Services\\Http\\HttpService.cs*",
-              "RelativeToolTip": "Services\\Http\\HttpService.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBcAAAAaAAAA",
+              "ToolTip": "C:\\c#Projects\\LLMIntegrations\\Services\\Http\\HttpService.cs",
+              "RelativeToolTip": "Services\\Http\\HttpService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowCYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T21:00:06.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -205,12 +200,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-12T23:42:12.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T23:42:12.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "LLMIntegrations.csproj",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\LLMIntegrations.csproj",
               "RelativeDocumentMoniker": "LLMIntegrations.csproj",
@@ -218,12 +212,11 @@
               "RelativeToolTip": "LLMIntegrations.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-11T21:11:51.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T21:11:51.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "IOpenAIService.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\IOpenAIService.cs",
               "RelativeDocumentMoniker": "Services\\IOpenAIService.cs",
@@ -235,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "LLMConfigs.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Utilities\\LLMConfigs.cs",
               "RelativeDocumentMoniker": "Utilities\\LLMConfigs.cs",
@@ -247,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "IExternalServices.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\External\\IExternalServices.cs",
               "RelativeDocumentMoniker": "Services\\External\\IExternalServices.cs",
@@ -259,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Classtt.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Services\\External\\Classtt.cs",
               "RelativeDocumentMoniker": "Services\\External\\Classtt.cs",
@@ -271,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\c#Projects\\LLMIntegrations\\Models\\OpenAI\\Response.cs",
               "RelativeDocumentMoniker": "Models\\OpenAI\\Response.cs",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LLMIntegrations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+312f71685e6750b829182e90c80da019d3dcb8f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4896e0e8414ad791a19fbd5fcc7ad8f9df141b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LLMIntegrations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LLMIntegrations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

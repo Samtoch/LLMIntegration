@@ -27,13 +27,20 @@ namespace LLMIntegrations.Controllers
         }
 
         [HttpPost]
-        [Route("ChatCompletion")]
+        [Route("openai")]
         public async Task<IActionResult> SendMessage(string request)
         {
             var response = await _extService.GetChatMessage(request);
             return Ok(response);
         }
 
+        [HttpPost]
+        [Route("llama/chat")]
+        public async Task<IActionResult> Chat(string request)
+        {
+            var response = await _extService.GetChatMessage(request);
+            return Ok(response);
+        }
 
     }
 }
