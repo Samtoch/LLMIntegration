@@ -38,8 +38,9 @@ namespace LLMIntegrations.Controllers
         [Route("llama/chat")]
         public async Task<IActionResult> Chat(string request)
         {
-            var response = await _extService.GetChatMessage(request);
-            return Ok(response);
+            var response = await _extService.GetLlamaChat(request);
+            string message = response.Response;
+            return Ok(message);
         }
 
     }

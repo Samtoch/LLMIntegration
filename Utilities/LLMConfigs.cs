@@ -11,5 +11,6 @@ namespace LLMIntegrations.Utilities
         public string Key { get; set; } = "";
         public string Key35 { get; set; } = "";
         public string Key40 { get; set; } = "";
+        public string? Stream { get; set; }
     }
 }
