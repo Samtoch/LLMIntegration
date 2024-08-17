@@ -9,18 +9,21 @@ using LLMIntegrations.Utilities;
 using LLMIntegrations.Services.External;
 using LLMIntegrations.Models.OpenAI;
 using LLMIntegrations.Services.Http;
+using LLMIntegrations.Models.Llama;
 
 namespace LLMIntegrations.Services.External
 {
     public class ExternalServices : IExternalServices
     {
         private static Logger log = LogManager.GetCurrentClassLogger();
+        private readonly OpenAIConfigs _configs;
+        private readonly LlamaConfigs _configsLlama;
         private readonly IHttpService _httpService;
-        private readonly LLMConfigs _config;
-        public ExternalServices(IOptionsMonitor<LLMConfigs> optionsMonitor, IHttpService httpService)
+        public ExternalServices(IOptionsMonitor<OpenAIConfigs> optionsMonitor, IOptionsMonitor<LlamaConfigs> llamaOptions, IHttpService httpService)
         {
             _httpService = httpService;
-            _config = optionsMonitor.CurrentValue;
+            _configs = optionsMonitor.CurrentValue;
+            _configsLlama = llamaOptions.CurrentValue;
         }
 
         public Task<Response> GetChatMessage(string text)
@@ -29,7 +32,7 @@ namespace LLMIntegrations.Services.External
             try
             {
                 //var msgs = new List<Message>();
-                var msgs = new List<Message>() { new Message() { Role = _config.Role, Content = text } };
+                var msgs = new List<Message>() { new Message() { Role = _configs.Role, Content = text } };
 
                 //foreach (var ms in msgs)
                 //{
@@ -38,10 +41,29 @@ namespace LLMIntegrations.Services.External
                 //    msgs.Add(ms);   
                 //}
 
-                var request = new Request() { Model = _config.Model, Messages = msgs };
+                var request = new Request() { Model = _configs.Model, Messages = msgs };
 
-                var item = _httpService.PostAsync(_config.BaseURL, _config.ChatEndPoint, request, _config.Key).Result;
+                var item = _httpService.PostAsync(_configs.BaseURL, _configs.EndPoint, request, _configs.Key).Result;
                 response = JsonConvert.DeserializeObject<Response>(item);
+            }
+            catch (Exception ex)
+            {
+                log.Info("error with passportlogin, msg: " + ex);
+            }
+            return Task.FromResult(response);
+        }
+
+        public Task<ResponseFromLlama> GetLlamaChat(string text)
+        {
+            var response = new ResponseFromLlama();
+            try
+            {
+                string prompt = $"Return just 'Yes' or 'No' depending on if the text entered is a programming language or not. \n\n{text} c# a programming language";
+
+                var msg = new RequestForLlama() { Model = _configsLlama.Role, Prompt = text, Stream = Convert.ToBoolean(_configsLlama.Stream) };
+
+                var item = _httpService.PostAsync(_configsLlama.BaseURL, _configsLlama.EndPoint, msg, null).Result;
+                response = JsonConvert.DeserializeObject<ResponseFromLlama>(item);
             }
             catch (Exception ex)
             {

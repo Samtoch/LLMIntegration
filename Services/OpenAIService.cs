@@ -7,10 +7,12 @@ namespace LLMIntegrations.Services
 {
     public class OpenAIService : IOpenAIService
     {
-        private readonly LLMConfigs _configs;
-        public OpenAIService(IOptionsMonitor<LLMConfigs> optionsMonitor)
+        private readonly OpenAIConfigs _configs;
+        private readonly LlamaConfigs _configsLlama;
+        public OpenAIService(IOptionsMonitor<OpenAIConfigs> optionsMonitor, IOptionsMonitor<LlamaConfigs> llamaOptions)
         {
               _configs = optionsMonitor.CurrentValue;
+              _configsLlama = llamaOptions.CurrentValue;
         }
 
         public async Task<string> GetResponse(string prompt)

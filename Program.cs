@@ -13,7 +13,8 @@ namespace LLMIntegrations
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.Configure<LLMConfigs>(builder.Configuration.GetSection("OpenAI"));
+            builder.Services.Configure<OpenAIConfigs>(builder.Configuration.GetSection("OpenAI"));
+            builder.Services.Configure<LlamaConfigs>(builder.Configuration.GetSection("Llama"));
             builder.Services.AddScoped<IOpenAIService, OpenAIService>();
             builder.Services.AddTransient<IExternalServices, ExternalServices>();
             builder.Services.AddTransient<IHttpService, HttpService>();
