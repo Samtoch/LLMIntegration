@@ -19,11 +19,12 @@ namespace LLMIntegrations.Services.Http
             {
                 using (var _client = new HttpClient())
                 {
-                    if (token != "")
+                    if (!string.IsNullOrEmpty(token))
                     {
                         //_client.DefaultRequestHeaders.Add("token", token);
                         _client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
                     }
+                    _client.Timeout = TimeSpan.FromMinutes(30);
                     _client.BaseAddress = new Uri(baseUrl);
                     var json = JsonConvert.SerializeObject(body);
                     var content = new StringContent(json, Encoding.UTF8, "application/json");

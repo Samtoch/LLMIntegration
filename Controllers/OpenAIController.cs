@@ -18,30 +18,38 @@ namespace LLMIntegrations.Controllers
             _extService = externalServices;
         }
 
-        [HttpGet]
-        [Route("GetMessage")]
-        public async Task<IActionResult> GETMessage(string input)
+        //[HttpGet]
+        //[Route("GetMessage")]
+        //public async Task<IActionResult> GETMessage(string input)
+        //{
+        //    var response = await _openAIService.GetResponse(input);
+        //    return Ok(response);
+        //}
+
+        [HttpPost]
+        [Route("Openai/Chat")]
+        public async Task<IActionResult> ChatOpenai(string request)
         {
-            var response = await _openAIService.GetResponse(input);
+            var response = await _extService.ChatOpenai(request);
             return Ok(response);
         }
 
         [HttpPost]
-        [Route("openai")]
-        public async Task<IActionResult> SendMessage(string request)
+        [Route("Llama/Chat")]
+        public async Task<IActionResult> ChatLlama(string request)
         {
-            var response = await _extService.GetChatMessage(request);
-            return Ok(response);
-        }
-
-        [HttpPost]
-        [Route("llama/chat")]
-        public async Task<IActionResult> Chat(string request)
-        {
-            var response = await _extService.GetLlamaChat(request);
+            var response = await _extService.ChatLlama(request);
             string message = response.Response;
             return Ok(message);
         }
 
+        [HttpPost]
+        [Route("Llama/VerifyLanguage")]
+        public async Task<IActionResult> VerifyLanguage(string request)
+        {
+            var response = await _extService.VerifyLanguage(request);
+            string message = response.Response;
+            return Ok(message);
+        }
     }
 }

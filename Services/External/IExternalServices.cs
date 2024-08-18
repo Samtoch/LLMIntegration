@@ -5,7 +5,8 @@ namespace LLMIntegrations.Services.External
 {
     public interface IExternalServices
     {
-        Task<Response> GetChatMessage(string text);
-        Task<ResponseFromLlama> GetLlamaChat(string text);
+        Task<Response> ChatOpenai(string text);
+        Task<ResponseFromLlama> ChatLlama(string text);
+        Task<ResponseFromLlama> VerifyLanguage(string text);
     }
 }
